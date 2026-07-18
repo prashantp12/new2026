@@ -16,7 +16,6 @@ public class SecondTestCases {
     @Test
     void searchCustomer(){
         System.out.println("New customer search");
-        //Assert.fail();
     }
 
     @Test
