@@ -20,7 +20,12 @@ public class SecondTestCases {
     }
 
     @Test
-    void teadDown(){
+    void tearDown(){
         System.out.println("Test logout");
+    }
+
+    @Test
+    void newTest11(){
+        System.out.println("New test to check Jenkins");
     }
 }
