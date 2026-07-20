@@ -25,4 +25,9 @@ public class TestCase1 {
         System.out.println("Test case skipped");
         throw new SkipException("Added skip exception");
     }
+
+    @Test
+    public void testcase4() {
+        System.out.println("New test cased added to check Jenkins syncing");
+    }
 }
