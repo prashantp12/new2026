@@ -30,4 +30,9 @@ public class TestCase1 {
     public void testcase4() {
         System.out.println("New test cased added to check Jenkins syncing");
     }
+
+    @Test
+    public void testcase5() {
+        System.out.println("New test cased added to check git hub");
+    }
 }
