@@ -2,6 +2,38 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="E:/Selenium/June2026/MavemProject">
-        <classes/>
+        <classes>
+            <class name="Listners.TestCase1">
+                <methods>
+                    <include name="testcase1"/>
+                    <include name="testcase2"/>
+                    <include name="testcase3"/>
+                    <include name="testcase4"/>
+                    <include name="testcase5"/>
+                </methods>
+            </class>
+            <class name="ParallelExecution.TestCase1">
+                <methods>
+                    <include name="logo"/>
+                    <include name="verifyTitle"/>
+                </methods>
+            </class>
+            <class name="ParallelExecution.TestCase2">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="Practice.PageFactoryExample">
+                <methods>
+                    <include name="newTest"/>
+                </methods>
+            </class>
+            <class name="RetryAnalyzerExample.RetryTestClass">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+        </classes>
     </test>
 </suite>

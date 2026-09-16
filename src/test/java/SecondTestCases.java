@@ -20,6 +20,11 @@ public class SecondTestCases {
     }
 
     @Test
+    void editCustomer(){
+        System.out.println("Customer edited");
+    }
+
+    @Test
     void tearDown(){
         System.out.println("Test logout");
     }
